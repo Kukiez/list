@@ -1,0 +1,4 @@
+C:/Main/Coding/Projects/Other/build/CMakeFiles/main.dir
+C:/Main/Coding/Projects/Other/build/CMakeFiles/PACKAGE.dir
+C:/Main/Coding/Projects/Other/build/CMakeFiles/ALL_BUILD.dir
+C:/Main/Coding/Projects/Other/build/CMakeFiles/ZERO_CHECK.dir

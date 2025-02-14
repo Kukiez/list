@@ -1,0 +1,10 @@
+^C:\MAIN\CODING\PROJECTS\OTHER\BUILD\CMAKEFILES\4AB1CE5A61C62DA9FA7FE79F5617973B\GENERATE.STAMP.RULE
+setlocal
+C:\CMake\bin\cmake.exe -SC:/Main/Coding/Projects/Other -BC:/Main/Coding/Projects/Other/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Main/Coding/Projects/Other/build/ColorGame.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
